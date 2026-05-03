@@ -1,0 +1,5 @@
+[versions]
+pretend = "3.3.3"
+
+[libraries]
+pretend = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "pretend" }
